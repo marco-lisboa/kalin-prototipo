@@ -67,9 +67,9 @@ export const StudentLayout: React.FC = () => {
             {/* Logo */}
             <div className="flex items-center gap-8">
               <img src="/src/public/kalin.png" alt="Kalin" className="w-12 h-12" />
-              < Logo to='/app'> </Logo>
+              < Logo to='/app' />
               {/* Desktop Navigation Links */}
-              <nav className="hidden md:flex items-center gap-1">
+              <nav className="hiddSen md:flex items-center gap-1">
                 {navLinks.map(link => (
                   <NavLink
                     key={link.to}
